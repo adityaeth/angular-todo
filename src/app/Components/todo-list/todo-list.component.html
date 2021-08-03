@@ -2,7 +2,7 @@
     <form (submit) = "addTodo()">
         <input class="todo-input" type="text" name="inputTodo" placeholder="Enter Task"
         [(ngModel)]="inputTodo" required>
-        <input type="submit" value=">>" class="todo-submit">
+        <input type="submit" value="Add" class="todo-submit">
     </form>
     <div class="todo {{ (todo.completed ? 'done' : '') }}" *ngFor="let todo of todos; let i = index;">
         <div class="id">{{i+1}}.</div>
