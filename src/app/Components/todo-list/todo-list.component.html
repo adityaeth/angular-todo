@@ -9,4 +9,7 @@
         <div class="content" (click)="toggleDone(i)">{{todo.content}}</div>
         <button class="delete" (click)="deleteTodo(i)">Remove</button>
     </div>
+    <div class="empty" *ngIf = "todos.length == 0">
+        <p style="text-align: center;">No Tasks!</p>
+    </div>
 </div>
