@@ -1,18 +1,24 @@
-# Todo
+# EMS(Employee Management System)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.1.4.
 
-## Development server
+```bash
+## Install dependencies and run development server on localhost:4200
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+$ npm i && ng serve
 
 ## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+$ ng generate component component-name
+# Run above command to generate a new component.
 
-## Build
+$ ng generate directive|pipe|service|class|guard|interface|enum|module
+# Alternative command of "ng generate component component-name"
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Build this project. The build artifacts will be stored in the dist/ directory.
+
+$ ng build
+```
 
 ## Running unit tests
 
